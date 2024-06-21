@@ -8,7 +8,7 @@ pipeline{
     agent any
     environment{
         appName = "variable"
-        GRADLE_HOME = tool 'Gradle'
+        GRADLE_HOME = tool "Gradle"
     }
     stages{
         stage('Build'){
